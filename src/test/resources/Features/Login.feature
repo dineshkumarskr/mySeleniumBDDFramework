@@ -27,3 +27,15 @@ When User enter loginCredential details
 |Test		|Changeme	|
 And User clicks on Login button
 Then User lands on Home screen
+
+@Check3
+Scenario: User Login to Web Application 
+
+Given User is on Login page
+When User enter loginCredential details
+#|username	|Test		|
+#|password	|Changeme	|
+|username	|password	|
+|Test		|Changeme	|
+And User clicks on Login button
+Then User lands on Home screen
