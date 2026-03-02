@@ -30,6 +30,7 @@ public class Login {
         lpf = new LoginPF(driver);
         ExtentTestManager.getTest().info("Launching Application URL in a Browser");
         driver.get("https://uat-app-next.workjam.com");
+        crr.explicitWait("lblLoginPageHeader", "Visible");
         lpf.getElement("lblLoginPageHeader").isDisplayed();
     }
 
