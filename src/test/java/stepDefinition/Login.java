@@ -2,6 +2,7 @@ package stepDefinition;
 
 import static org.junit.Assert.assertFalse;
 
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Map;
 
@@ -22,14 +23,17 @@ public class Login {
 	WebDriver driver = DriverManager.getDriver();
     LoginPF lpf;
     CommonReusableRepo crr;
+    
 
     @Given("User is on Login page")
-    public void user_is_on_login_page() {
+    public void user_is_on_login_page() throws SQLException {
         driver = DriverManager.getDriver();
         crr = new CommonReusableRepo(driver);
         lpf = new LoginPF(driver);
         ExtentTestManager.getTest().info("Launching Application URL in a Browser");
         driver.get("https://uat-app-next.workjam.com");
+        String name = crr.executeSelectQuery("Name");
+        System.out.println("Database connection successful"+name);
         crr.explicitWait("lblLoginPageHeader", "Visible");
         lpf.getElement("lblLoginPageHeader").isDisplayed();
     }
