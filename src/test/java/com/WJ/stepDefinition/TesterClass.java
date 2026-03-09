@@ -110,7 +110,24 @@ public class TesterClass {
 		//-------------------------------End of Train Ticket Calculation Program ----------------------------------
 		//---------------------------------------------------
 		
-		String name = "Test";
+		//------------------------------- Start of Removing Duplicate from the given string -------------------------
+		//--------------------------------------------------------
+		/*
+		 * String name = "My name is Dineshkumar Sekar"; Map<Character,Integer> charMap
+		 * = new HashMap<Character,Integer>(); name = name.toUpperCase().replace(" ",
+		 * ""); System.out.println(name); String duplicateRemoved="";
+		 * 
+		 * for (int i =0; i<name.length();i++) { charMap.put(name.charAt(i),
+		 * charMap.getOrDefault(name.charAt(i),0)+1); }
+		 * 
+		 * for (int i =0; i<name.length();i++) { if(charMap.get(name.charAt(i))>1) {
+		 * continue; } else { duplicateRemoved = duplicateRemoved+name.charAt(i); } }
+		 * 
+		 * System.out.println(duplicateRemoved);
+		 */
+		
+		//------------------------------- End of Removing Duplicate from the given string ---------------------------
+		//------------------------------------------------------
 	
 	}
 
