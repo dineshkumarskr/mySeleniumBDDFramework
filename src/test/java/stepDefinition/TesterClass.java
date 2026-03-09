@@ -8,8 +8,11 @@ import java.sql.Statement;
 import java.text.DateFormat;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Properties;
+import java.util.*;
 
 import static org.junit.Assert.assertArrayEquals;
 
@@ -83,6 +86,30 @@ public class TesterClass {
 		 
 		// ------------------------------End of Reading a File from Local directory and handling the
 		// string -------------------------------------------
+	
+		//-------------------------------Start of Train Ticket Calculation Program ----------------------------------
+		//---------------------------------------------------
+		
+		/*
+		 * List<String> stations=
+		 * Arrays.asList("Alandur","Guindy","Saidapet","Little Mount","Nandanam",
+		 * "Teynampet","Thosand Lights","LIC","Governer's Estate","Central Station");
+		 * 
+		 * String BoardingStation = "Central Station"; String DestinationStation =
+		 * "Alandur"; int costPerStation = 2;
+		 * 
+		 * int boardingStationIndex = stations.indexOf(BoardingStation); int
+		 * destinationStation = stations.indexOf(DestinationStation);
+		 * 
+		 * int stationsTravelled = Math.abs(boardingStationIndex-destinationStation);
+		 * int fare = stationsTravelled*costPerStation;
+		 * 
+		 * System.out.println("total cost of station travelled $"+fare);
+		 */
+		
+		//-------------------------------End of Train Ticket Calculation Program ----------------------------------
+		//---------------------------------------------------
+	
 	}
 
 }

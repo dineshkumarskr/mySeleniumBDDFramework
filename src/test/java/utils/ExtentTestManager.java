@@ -6,12 +6,12 @@ public class ExtentTestManager {
 	
 	 private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
-	    public static ExtentTest getTest() {
-	        return test.get();
-	    }
-
-	    public static void setTest(ExtentTest extentTest) {
+	 	public static synchronized void setTest(ExtentTest extentTest) {
 	        test.set(extentTest);
+	    }
+	 	
+	 	public static synchronized ExtentTest getTest() {
+	        return test.get();
 	    }
 
 	    public static void unload() {

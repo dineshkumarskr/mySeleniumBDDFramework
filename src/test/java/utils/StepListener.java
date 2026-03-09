@@ -15,7 +15,9 @@ public class StepListener implements ConcurrentEventListener {
                 String stepText =
                         step.getStep().getKeyword() + step.getStep().getText();
 
-                ExtentTestManager.getTest().info(stepText);
+                if(ExtentTestManager.getTest()!=null) {
+                	ExtentTestManager.getTest().info(stepText);
+                }
             }
         });
     }
