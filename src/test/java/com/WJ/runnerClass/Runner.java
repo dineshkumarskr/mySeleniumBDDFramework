@@ -19,7 +19,7 @@ import io.cucumber.junit.CucumberOptions;
                 "com.WJ.utils.StepListener",
                 "html:target/cucumber-reports/cucumber.html",
                 "json:target/cucumber-reports/cucumber.json",
-                "junit:target/cucumber-reports/cucumber.xml"
+                "junit:target/cucumber-reports/Cucumber.xml"
         },
         tags = "@Test",
         monochrome = true,

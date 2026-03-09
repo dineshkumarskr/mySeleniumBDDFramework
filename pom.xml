@@ -69,7 +69,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>
-                        <include>Runner.java</include>
+                        <include>com.WJ.runnerClass/Runner.java</include>
                     </includes>
                 </configuration>
             </plugin>
