@@ -1,4 +1,4 @@
-package resuableMethods;
+package com.WJ.resuableMethods;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,8 +13,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import utils.ConfigManager;
-import utils.DatabaseConnection;
+import com.WJ.utils.ConfigManager;
+import com.WJ.utils.DatabaseConnection;
 
 public class CommonReusableRepo {
 

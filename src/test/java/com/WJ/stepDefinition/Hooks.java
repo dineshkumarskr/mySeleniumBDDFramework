@@ -8,6 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import com.WJ.resuableMethods.DriverManager;
+import com.WJ.utils.ExtentManager;
+import com.WJ.utils.ExtentTestManager;
 import com.aventstack.extentreports.Status;
 
 import io.cucumber.java.After;
@@ -16,9 +19,6 @@ import io.cucumber.java.Before;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import resuableMethods.DriverManager;
-import utils.ExtentManager;
-import utils.ExtentTestManager;
 
 public class Hooks  {
 

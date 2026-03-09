@@ -8,14 +8,15 @@ import java.util.Map;
 
 import org.openqa.selenium.WebDriver;
 
+import com.WJ.pageFactory.LoginPF;
+import com.WJ.resuableMethods.CommonReusableRepo;
+import com.WJ.resuableMethods.DriverManager;
+import com.WJ.utils.ExtentTestManager;
+
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import pageFactory.LoginPF;
-import resuableMethods.CommonReusableRepo;
-import resuableMethods.DriverManager;
-import utils.ExtentTestManager;
 
 public class Login {
 	

@@ -1,4 +1,4 @@
-package pageFactory;
+package com.WJ.pageFactory;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import resuableMethods.CommonReusableRepo;
+import com.WJ.resuableMethods.CommonReusableRepo;
 
 public class LoginPF {
 	

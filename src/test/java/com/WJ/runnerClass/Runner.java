@@ -1,4 +1,4 @@
-package runnerClass;
+package com.WJ.runnerClass;
 
 import org.junit.runner.RunWith;
 
@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
         plugin = {
                 "pretty",
                 "summary",
-                "utils.StepListener",
+                "com.WJ.utils.StepListener",
                 "html:target/cucumber-reports/cucumber.html",
                 "json:target/cucumber-reports/cucumber.json",
                 "junit:target/cucumber-reports/cucumber.xml"

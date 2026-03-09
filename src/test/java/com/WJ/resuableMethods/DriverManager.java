@@ -1,4 +1,4 @@
-package resuableMethods;
+package com.WJ.resuableMethods;
 
 import java.time.Duration;
 
