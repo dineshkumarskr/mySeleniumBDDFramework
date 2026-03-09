@@ -109,6 +109,8 @@ public class TesterClass {
 		
 		//-------------------------------End of Train Ticket Calculation Program ----------------------------------
 		//---------------------------------------------------
+		
+		String name = "Test";
 	
 	}
 
