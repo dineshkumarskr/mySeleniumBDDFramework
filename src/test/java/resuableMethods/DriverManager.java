@@ -18,8 +18,8 @@ public class DriverManager {
 
 	public static void initDriver() {
 		WebDriverManager.chromedriver().setup();
-		//driver = new ChromeDriver();
-		driver = new EdgeDriver();
+		driver = new ChromeDriver();
+		//driver = new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
